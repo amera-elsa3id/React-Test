@@ -1,4 +1,4 @@
-export default function Child(props,key) {
+export default function Child(props) {
   let { id, name, price, onSale } = props.product;
   return (
     <>
